@@ -2,7 +2,7 @@
 layout: lesson
 title: List Comprehension
 ---
-Paragraph(s) of introductory material.
+List comprehension is a concise way to construct lists. 
 
 > ## Prerequisites {.prereq}
 > loops
@@ -11,7 +11,26 @@ Paragraph(s) of introductory material.
 ## Topics
 
 1.  [The Basic Parts](01-slug.html)
-2.  [Greater complexity](02-slug.html)
+
+List comprehensions are a concise way to create lists. 
+
+~~~ {.Python}
+lowermost = ['blue', 'green', 'yellow', 'black', 'red'] 
+upperlist = []
+for colour in lowerlist:
+    upperlist.append(colour.upper())
+print(upperlist)
+
+~~~
+
+~~~ {.output}
+['BLUE', 'GREEN', 'YELLOW', 'BLACK', 'RED']
+~~~
+
+
+
+2.
+  [Greater complexity](02-slug.html)
 3.  [When to stop](03-slug.html)
 
 ## Other Resources
