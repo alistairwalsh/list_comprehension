@@ -27,7 +27,7 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">List Comprehension</h1>
-          <p>Paragraph(s) of introductory material.</p>
+          <p>List comprehension is a concise way to construct lists.</p>
 <section class="prereq panel panel-warning">
 <div class="panel-heading">
 <h2><span class="glyphicon glyphicon-education"></span>Prerequisites</h2>
@@ -39,9 +39,15 @@
 </section>
 <ol style="list-style-type: decimal">
 <li><a href="01-slug.html">The Basic Parts</a></li>
-<li><a href="02-slug.html">Greater complexity</a></li>
-<li><a href="03-slug.html">When to stop</a></li>
 </ol>
+<p>List comprehensions are a concise way to create lists.</p>
+<pre class="sourceCode Python"><code class="sourceCode python">lowermost = [<span class="st">&#39;blue&#39;</span>, <span class="st">&#39;green&#39;</span>, <span class="st">&#39;yellow&#39;</span>, <span class="st">&#39;black&#39;</span>, <span class="st">&#39;red&#39;</span>] 
+upperlist = []
+<span class="kw">for</span> colour in lowerlist:
+    upperlist.append(colour.upper())
+<span class="dt">print</span>(upperlist)</code></pre>
+<pre class="output"><code>[&#39;BLUE&#39;, &#39;GREEN&#39;, &#39;YELLOW&#39;, &#39;BLACK&#39;, &#39;RED&#39;]</code></pre>
+<p>2. <a href="02-slug.html">Greater complexity</a> 3. <a href="03-slug.html">When to stop</a></p>
 <h2 id="other-resources">Other Resources</h2>
 <ul>
 <li><a href="reference.html">Reference</a></li>
