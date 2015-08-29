@@ -14,8 +14,8 @@ List comprehension is a concise way to construct lists.
 
 List comprehensions are a concise way to create lists. 
 
-~~~ {.Python}
-lowermost = ['blue', 'green', 'yellow', 'black', 'red'] 
+~~~ {.python}
+lowerlist = ['blue', 'green', 'yellow', 'black', 'red'] 
 upperlist = []
 for colour in lowerlist:
     upperlist.append(colour.upper())
@@ -27,8 +27,16 @@ print(upperlist)
 ['BLUE', 'GREEN', 'YELLOW', 'BLACK', 'RED']
 ~~~
 
+A list comprehension to do the same task would be
 
+~~~ {.python}
+uppermost = [colour.upper() for colour in lowerlist]
+print(lowerlist)
+~~~
 
+~~~ {.output}
+['BLUE', 'GREEN', 'YELLOW', 'BLACK', 'RED']
+~~~
 2.
   [Greater complexity](02-slug.html)
 3.  [When to stop](03-slug.html)
