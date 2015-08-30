@@ -8,6 +8,7 @@ List comprehension is a concise way to construct lists.
 > loops
 > 
 > lists
+
 ## Topics
 
 1.  [The Basic Parts](01-slug.html)
@@ -30,15 +31,16 @@ print(upperlist)
 A list comprehension to do the same task would be
 
 ~~~ {.python}
-uppermost = [colour.upper() for colour in lowerlist]
-print(lowerlist)
+upperlist = [colour.upper() for colour in lowerlist]
+print(upperlist)
 ~~~
 
 ~~~ {.output}
 ['BLUE', 'GREEN', 'YELLOW', 'BLACK', 'RED']
 ~~~
-2.
-  [Greater complexity](02-slug.html)
+
+2.  [Greater complexity](02-slug.html)
+
 3.  [When to stop](03-slug.html)
 
 ## Other Resources

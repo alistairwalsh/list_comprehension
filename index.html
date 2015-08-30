@@ -34,9 +34,10 @@
 </div>
 <div class="panel-body">
 <p>loops</p>
-<p>lists ## Topics</p>
+<p>lists</p>
 </div>
 </section>
+<h2 id="topics">Topics</h2>
 <ol style="list-style-type: decimal">
 <li><a href="01-slug.html">The Basic Parts</a></li>
 </ol>
@@ -48,10 +49,13 @@ upperlist = []
 <span class="dt">print</span>(upperlist)</code></pre>
 <pre class="output"><code>[&#39;BLUE&#39;, &#39;GREEN&#39;, &#39;YELLOW&#39;, &#39;BLACK&#39;, &#39;RED&#39;]</code></pre>
 <p>A list comprehension to do the same task would be</p>
-<pre class="sourceCode python"><code class="sourceCode python">uppermost = [colour.upper() <span class="kw">for</span> colour in lowerlist]
-<span class="dt">print</span>(lowerlist)</code></pre>
+<pre class="sourceCode python"><code class="sourceCode python">upperlist = [colour.upper() <span class="kw">for</span> colour in lowerlist]
+<span class="dt">print</span>(upperlist)</code></pre>
 <pre class="output"><code>[&#39;BLUE&#39;, &#39;GREEN&#39;, &#39;YELLOW&#39;, &#39;BLACK&#39;, &#39;RED&#39;]</code></pre>
-<p>2. <a href="02-slug.html">Greater complexity</a> 3. <a href="03-slug.html">When to stop</a></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p><a href="02-slug.html">Greater complexity</a></p></li>
+<li><p><a href="03-slug.html">When to stop</a></p></li>
+</ol>
 <h2 id="other-resources">Other Resources</h2>
 <ul>
 <li><a href="reference.html">Reference</a></li>
